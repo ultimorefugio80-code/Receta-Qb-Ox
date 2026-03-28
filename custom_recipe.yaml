@@ -8,7 +8,7 @@ description: QBCore Framework with Ox Inventory, Target, Doorlock, and Lib. Incl
 tasks:
   #  Download Base Files (Configs & SQL)
   - action: download_github
-    src: https://github.com/TheOrderFivem/txAdminRecipe
+    src: https://github.com/ultimorefugio80-code/Receta-Qb-Ox
     ref: main
     dest: ./tmp/theorder
 
