@@ -4,53 +4,53 @@ QBShared.ForceJobDefaultDutyAtLogin = false -- If true, a player will always log
 
 QBShared.Jobs = {
 	unemployed = { 
-        label = 'Civil', 
+        label = 'Civil',
         defaultDuty = true, 
         offDutyPay = false, 
         grades = { 
             ['0'] = { name = 'Desempleado', payment = 10 } 
-        } 
+        }
     },
-    
+
 	police = {
-		label = 'Law Enforcement',
+		label = 'Policía',
 		type = 'leo',
 		defaultDuty = true,
 		offDutyPay = false,
 		grades = {
-			['0'] = { name = 'Recruit', payment = 50 },
-			['1'] = { name = 'Officer', payment = 75 },
-			['2'] = { name = 'Sergeant', payment = 100 },
-			['3'] = { name = 'Lieutenant', payment = 125 },
-			['4'] = { name = 'Chief', isboss = true, payment = 150 },
+			['0'] = { name = 'Recluta', payment = 50 },
+			['1'] = { name = 'Oficial', payment = 75 },
+			['2'] = { name = 'Sargento', payment = 100 },
+			['3'] = { name = 'Teniente', payment = 125 },
+			['4'] = { name = 'Comisario', isboss = true, payment = 150 },
 		},
 	},
 
 	ambulance = {
-		label = 'Medical Services',
+		label = 'Servicios Médicos',
 		type = 'ems',
 		defaultDuty = true,
 		offDutyPay = false,
 		grades = {
-			['0'] = { name = 'Recruit', payment = 50 },
-			['1'] = { name = 'Paramedic', payment = 75 },
+			['0'] = { name = 'Recluta', payment = 50 },
+			['1'] = { name = 'Paramédico', payment = 75 },
 			['2'] = { name = 'Doctor', payment = 100 },
-			['3'] = { name = 'Surgeon', payment = 125 },
-			['4'] = { name = 'Chief', isboss = true, payment = 150 },
+			['3'] = { name = 'Cirujano', payment = 125 },
+			['4'] = { name = 'Director', isboss = true, payment = 150 },
 		},
 	},
 
 	mechanic = {
-		label = 'Mechanic',
+		label = 'Mecánico',
 		type = 'mechanic',
 		defaultDuty = true,
 		offDutyPay = false,
 		grades = {
-			['0'] = { name = 'Recruit', payment = 50 },
-			['1'] = { name = 'Novice', payment = 75 },
-			['2'] = { name = 'Experienced', payment = 100 },
-			['3'] = { name = 'Manager', payment = 125 },
-			['4'] = { name = 'Owner', isboss = true, payment = 150 },
+			['0'] = { name = 'Recluta', payment = 50 },
+			['1'] = { name = 'Novato', payment = 75 },
+			['2'] = { name = 'Experimentado', payment = 100 },
+			['3'] = { name = 'Encargado', payment = 125 },
+			['4'] = { name = 'Dueño', isboss = true, payment = 150 },
 		},
 	},
 
@@ -60,56 +60,56 @@ QBShared.Jobs = {
 		defaultDuty = true,
 		offDutyPay = false,
 		grades = {
-			['0'] = { name = 'Recruit', payment = 50 },
-			['1'] = { name = 'Driver', payment = 75 },
-			['2'] = { name = 'Manager', payment = 125 },
-			['3'] = { name = 'Owner', isboss = true, payment = 150 },
+			['0'] = { name = 'Recluta', payment = 50 },
+			['1'] = { name = 'Conductor', payment = 75 },
+			['2'] = { name = 'Encargado', payment = 125 },
+			['3'] = { name = 'Dueño', isboss = true, payment = 150 },
 		},
 	},
 
 	tow = {
-		label = 'Towing',
+		label = 'Servicio de Grúa',
 		type = 'tow',
 		defaultDuty = true,
 		offDutyPay = false,
 		grades = {
-			['0'] = { name = 'Recruit', payment = 50 },
-			['1'] = { name = 'Driver', payment = 75 },
-			['2'] = { name = 'Manager', payment = 125 },
-			['3'] = { name = 'Owner', isboss = true, payment = 150 },
+			['0'] = { name = 'Recluta', payment = 50 },
+			['1'] = { name = 'Conductor', payment = 75 },
+			['2'] = { name = 'Encargado', payment = 125 },
+			['3'] = { name = 'Dueño', isboss = true, payment = 150 },
 		},
 	},
 
 	realestate = {
-		label = 'Real Estate',
+		label = 'Inmobiliaria',
 		defaultDuty = true,
 		offDutyPay = false,
 		grades = {
-			['0'] = { name = 'Recruit', payment = 50 },
-			['1'] = { name = 'Agent', payment = 75 },
-			['2'] = { name = 'Manager', payment = 125 },
-			['3'] = { name = 'Owner', isboss = true, payment = 150 },
+			['0'] = { name = 'Recluta', payment = 50 },
+			['1'] = { name = 'Agente', payment = 75 },
+			['2'] = { name = 'Encargado', payment = 125 },
+			['3'] = { name = 'Dueño', isboss = true, payment = 150 },
 		},
 	},
 
 	trucker = {
-		label = 'Trucker',
+		label = 'Camionero',
 		defaultDuty = true,
 		offDutyPay = false,
 		grades = {
-			['0'] = { name = 'Recruit', payment = 50 },
-			['1'] = { name = 'Driver', payment = 75 },
-			['2'] = { name = 'Manager', payment = 125 },
-			['3'] = { name = 'Owner', isboss = true, payment = 150 },
+			['0'] = { name = 'Recluta', payment = 50 },
+			['1'] = { name = 'Conductor', payment = 75 },
+			['2'] = { name = 'Encargado', payment = 125 },
+			['3'] = { name = 'Dueño', isboss = true, payment = 150 },
 		},
 	},
 
 	bus = {
-		label = 'Bus Driver',
+		label = 'Conductor de Autobús',
 		defaultDuty = true,
 		offDutyPay = false,
 		grades = {
-			['0'] = { name = 'Driver', payment = 50 },
+			['0'] = { name = 'Conductor', payment = 50 },
 		},
 	},
 
