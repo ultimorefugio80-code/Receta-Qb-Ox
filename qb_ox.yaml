@@ -120,7 +120,7 @@ tasks:
   # OX ECOSYSTEM
   - action: download_file
     path: ./tmp/ox_lib.zip
-    url: https://github.com/overextended/ox_lib/releases/latest/download/ox_lib.zip
+    url: https://github.com/CommunityOx/ox_lib/releases/latest/download/ox_lib.zip
 
   - action: unzip
     dest: ./resources/[ox]
@@ -128,7 +128,7 @@ tasks:
 
   - action: download_file
     path: ./tmp/ox_target.zip
-    url: https://github.com/overextended/ox_target/releases/latest/download/ox_target.zip
+    url: https://github.com/TheOrderFivem/ox_target/releases/latest/download/ox_target.zip
 
   - action: unzip
     dest: ./resources/[ox]
@@ -136,7 +136,7 @@ tasks:
 
   - action: download_file
     path: ./tmp/ox_inventory.zip
-    url: https://github.com/overextended/ox_inventory/releases/latest/download/ox_inventory.zip
+    url: https://github.com/TheOrderFivem/ox_inventory/releases/latest/download/ox_inventory.zip
 
   - action: unzip
     dest: ./resources/[ox]
@@ -144,7 +144,7 @@ tasks:
 
   - action: download_file
     path: ./tmp/ox_doorlock.zip
-    url: https://github.com/overextended/ox_doorlock/releases/latest/download/ox_doorlock.zip
+    url: https://github.com/TheOrderFivem/ox_doorlock/releases/latest/download/ox_doorlock.zip
 
   - action: unzip
     dest: ./resources/[ox]
@@ -152,7 +152,7 @@ tasks:
 
   - action: download_file
     path: ./tmp/oxmysql.zip
-    url: https://github.com/overextended/oxmysql/releases/latest/download/oxmysql.zip
+    url: https://github.com/CommunityOx/oxmysql/releases/latest/download/oxmysql.zip
 
   - action: unzip
     dest: ./resources/[ox]
