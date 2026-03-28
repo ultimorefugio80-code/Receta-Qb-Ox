@@ -68,14 +68,20 @@ tasks:
     overwrite: true
 
   - action: move_path
-    src: ./tmp/ultimorefugio/edits/qb-core/shared/config.lua
-    dest: ./resources/[qb]/qb-core/shared/config.lua
+    src: ./tmp/ultimorefugio/edits/qb-core/config.lua
+    dest: ./resources/[qb]/qb-core/config.lua
     overwrite: true
 
   # QB-SMALLRESOURCES EDITS
   - action: move_path
     src: ./tmp/ultimorefugio/edits/qb-smallresources/config.lua
     dest: ./resources/[qb]/qb-smallresources/config.lua
+    overwrite: true
+
+  # OX_INVENTORY EDITS
+  - action: move_path
+    src: ./tmp/ultimorefugio/edits/ox_inventory/items.lua
+    dest: ./resources/[ox]/ox_inventory/data/items.lua
     overwrite: true
 
   # CFX DEFAULT
