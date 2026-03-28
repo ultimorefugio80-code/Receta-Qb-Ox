@@ -25,7 +25,7 @@ return {
 			anim = 'eating',
 			prop = 'burger',
 			usetime = 2500,
-			notification = 'You ate a delicious burger'
+			notification = 'Te has comido una deliciosa hamburguesa'
 		},
 	},
 
@@ -38,7 +38,7 @@ return {
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = { model = `prop_ld_can_01`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
 			usetime = 2500,
-			notification = 'You quenched your thirst with a sprunk'
+			notification = 'Has saciado tu sed con un Sprunk'
 		}
 	},
 
@@ -68,7 +68,7 @@ return {
 	},
 
 	['identification'] = {
-		label = 'Identification',
+		label = 'Identificación',
 		rarity = 'silver',
 		client = {
 			image = 'id_card.png'
@@ -76,7 +76,7 @@ return {
 	},
 
 	['panties'] = {
-		label = 'Knickers',
+		label = 'Bragas',
 		weight = 10,
 		consume = 0,
 		rarity = 'purple',
@@ -89,13 +89,13 @@ return {
 	},
 
 	['lockpick'] = {
-		label = 'Ganzua',
+		label = 'Ganzúa',
 		weight = 160,
 		rarity = 'rare',
 	},
 
 	['phone'] = {
-		label = 'Telefono',
+		label = 'Teléfono',
 		weight = 190,
 		stack = false,
 		rarity = 'epic',
@@ -115,7 +115,7 @@ return {
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = { model = `prop_food_mustard`, pos = vec3(0.01, 0.0, -0.07), rot = vec3(1.0, 1.0, -1.5) },
 			usetime = 2500,
-			notification = 'You.. drank mustard'
+			notification = 'Te has.. bebido la mostaza'
 		}
 	},
 
@@ -129,7 +129,7 @@ return {
 			prop = { model = `prop_ld_flow_bottle`, pos = vec3(0.03, 0.03, 0.02), rot = vec3(0.0, 0.0, -1.5) },
 			usetime = 2500,
 			cancel = true,
-			notification = 'You drank some refreshing water'
+			notification = 'Has bebido un poco de agua refrescante'
 		}
 	},
 
@@ -175,11 +175,11 @@ return {
 	},
 
 	["empty_weed_bag"] = {
-		label = "Bolsa de Marihuana Vacia",
+		label = "Bolsa de Marihuana Vacía",
 		weight = 0,
 		stack = true,
 		close = true,
-		description = "Una bolsa pequeña vacia",
+		description = "Una bolsa pequeña vacía",
 		client = {
 			image = "weed_baggy_empty.png",
 		}
@@ -190,7 +190,7 @@ return {
 		weight = 100,
 		stack = true,
 		close = false,
-		description = "Es muy fragil, ten cuidado",
+		description = "Es muy frágil, ten cuidado",
 		rarity = 'common',
 	},
 
@@ -199,14 +199,14 @@ return {
 		weight = 500,
 		stack = true,
 		close = true,
-		description = "For all the thirsty out there",
+		description = "Para los que tienen sed ahí fuera",
 		client = {
 			image = "cola.png",
 		}
 	},
 
 	["empty_evidence_bag"] = {
-		label = "Bolsa de Evidencia Vacia",
+		label = "Bolsa de Evidencia Vacía",
 		weight = 0,
 		stack = true,
 		close = false,
@@ -217,19 +217,19 @@ return {
 	},
 
 	["labkey"] = {
-		label = "Llave Laboratorio",
+		label = "Llave de Laboratorio",
 		weight = 500,
 		stack = false,
 		close = true,
-		description = "Llave para abrir puertas electronicas",
+		description = "Llave para abrir puertas electrónicas",
 	},
 
 	["aluminumoxide"] = {
-		label = "Polvo de Aluminio",
+		label = "Óxido de Aluminio",
 		weight = 100,
 		stack = true,
 		close = false,
-		description = "Some powder to mix with",
+		description = "Polvo para mezclar",
 		rarity = 'common',
 	},
 
@@ -238,32 +238,32 @@ return {
 		weight = 7000,
 		stack = true,
 		close = true,
-		description = "Parece bastante caro para mi",
+		description = "Parece bastante caro",
 		rarity = 'gold',
 	},
 
 	["firework4"] = {
-		label = "Weeping Willow",
+		label = "Sauce Llorón",
 		weight = 1000,
 		stack = true,
 		close = true,
-		description = "Fireworks",
+		description = "Fuegos artificiales",
 	},
 
 	["radioscanner"] = {
-		label = "Escanner de Radio",
+		label = "Escáner de Radio",
 		weight = 1000,
 		stack = true,
 		close = true,
-		description = "Con esto puedes recibir algunas alertas policiales. Sin embargo, no es 100% efectivo",
+		description = "Con esto puedes recibir algunas alertas policiales. No es 100% efectivo",
 	},
 
 	["sandwich"] = {
-		label = "Sandwich",
+		label = "Sándwich",
 		weight = 200,
 		stack = true,
 		close = true,
-		description = "Nice bread for your stomach",
+		description = "Pan rico para el estómago",
 	},
 
 	["meth"] = {
@@ -278,11 +278,11 @@ return {
 	},
 
 	["snikkel_candy"] = {
-		label = "Snikkel",
+		label = "Caramelo Snikkel",
 		weight = 100,
 		stack = true,
 		close = true,
-		description = "Some delicious candy :O",
+		description = "Un dulce delicioso :O",
 	},
 
 	["weed_amnesia_seed"] = {
@@ -301,7 +301,7 @@ return {
 		weight = 500,
 		stack = false,
 		close = true,
-		description = "I like fitbit",
+		description = "Pulsera de actividad",
 	},
 
 	["oxy"] = {
@@ -317,7 +317,7 @@ return {
 		weight = 500,
 		stack = true,
 		close = true,
-		description = "Nada como una buena cerveza fria!",
+		description = "Nada como una buena cerveza fría!",
 	},
 
 	["weed_ak47_seed"] = {
@@ -343,11 +343,11 @@ return {
 	},
 
 	["binoculars"] = {
-		label = "Prismaticos",
+		label = "Prismáticos",
 		weight = 600,
 		stack = true,
 		close = true,
-		description = "Prismaticos para ver de lejos",
+		description = "Prismáticos para ver de lejos",
 	},
 
 	["aluminum"] = {
@@ -355,106 +355,106 @@ return {
 		weight = 100,
 		stack = true,
 		close = false,
-		description = "Una bonita pieza de metal que seguramente te sirva para algo",
+		description = "Una bonita pieza de metal que seguro sirve para algo",
 	},
 
 	["rolex"] = {
-		label = "Reloj de Oro",
+		label = "Reloj de Oro (Rolex)",
 		weight = 1500,
 		stack = true,
 		close = true,
-		description = "A golden watch seems like the jackpot to me!",
+		description = "Un reloj de oro, ¡parece el premio gordo!",
 	},
 
 	["jerry_can"] = {
-		label = "Jerrycan 20L",
+		label = "Bidón de Gasolina 20L",
 		weight = 20000,
 		stack = true,
 		close = true,
-		description = "A can full of Fuel",
+		description = "Un bidón lleno de combustible",
 	},
 
 	["advancedlockpick"] = {
-		label = "Advanced Lockpick",
+		label = "Ganzúa Avanzada",
 		weight = 500,
 		stack = true,
 		close = true,
-		description = "If you lose your keys a lot this is very useful... Also useful to open your beers",
+		description = "Útil si pierdes mucho las llaves... o para abrir cervezas",
 	},
 
 	["item_bench"] = {
-		label = "Workbench",
+		label = "Mesa de Trabajo",
 		weight = 15000,
 		stack = false,
 		close = false,
-		description = "A workbench to craft items.",
+		description = "Una mesa para fabricar objetos.",
 		client = {
 			image = "workbench.png",
 		}
 	},
 
 	["geocamo_attachment"] = {
-		label = "Geometric Camo",
+		label = "Camuflaje Geométrico",
 		weight = 1000,
 		stack = true,
 		close = true,
-		description = "A geometric camo for a weapon",
+		description = "Camuflaje para arma",
 	},
 
 	["steel"] = {
-		label = "Steel",
+		label = "Acero",
 		weight = 100,
 		stack = true,
 		close = false,
-		description = "Nice piece of metal that you can probably use for something",
+		description = "Pieza de metal útil para fabricar",
 	},
 
 	["diving_gear"] = {
-		label = "Diving Gear",
+		label = "Equipo de Buceo",
 		weight = 30000,
 		stack = false,
 		close = true,
-		description = "An oxygen tank and a rebreather",
+		description = "Tanque de oxígeno y máscara",
 	},
 
 	["markedbills"] = {
-		label = "Marked Money",
+		label = "Dinero Marcado",
 		weight = 1000,
 		stack = false,
 		close = true,
-		description = "Money?",
+		description = "¿Dinero sucio?",
 	},
 
 	["holoscope_attachment"] = {
-		label = "Holo Scope",
+		label = "Mira Holográfica",
 		weight = 1000,
 		stack = true,
 		close = true,
-		description = "A holo scope for a weapon",
+		description = "Mira holográfica para arma",
 	},
 
 	["drum_attachment"] = {
-		label = "Drum",
+		label = "Cargador de Tambor",
 		weight = 1000,
 		stack = true,
 		close = true,
-		description = "A drum for a weapon",
+		description = "Cargador ampliado para arma",
 	},
 
 	["veh_armor"] = {
-		label = "Armor",
+		label = "Blindaje",
 		weight = 1000,
 		stack = true,
 		close = true,
-		description = "Upgrade vehicle armor",
+		description = "Mejora el blindaje del vehículo",
 	},
 
 	["boomcamo_attachment"] = {
-		label = "Boom Camo",
+		label = "Camuflaje Boom",
 		weight = 1000,
 		stack = true,
 		close = true,
-		description = "A boom camo for a weapon",
+		description = "Camuflaje para arma",
 	},
 
 	["veh_exterior"] = {
@@ -462,23 +462,23 @@ return {
 		weight = 1000,
 		stack = true,
 		close = true,
-		description = "Upgrade vehicle exterior",
+		description = "Mejora el exterior del vehículo",
 	},
 
 	["veh_engine"] = {
-		label = "Engine",
+		label = "Motor",
 		weight = 1000,
 		stack = true,
 		close = true,
-		description = "Upgrade vehicle engine",
+		description = "Mejora el motor del vehículo",
 	},
 
 	["pinger"] = {
-		label = "Pinger",
+		label = "Localizador",
 		weight = 1000,
 		stack = true,
 		close = true,
-		description = "With a pinger and your phone you can send out your location",
+		description = "Con esto y tu teléfono puedes enviar tu ubicación",
 	},
 
 	["veh_turbo"] = {
@@ -486,150 +486,150 @@ return {
 		weight = 1000,
 		stack = true,
 		close = true,
-		description = "Install vehicle turbo",
+		description = "Instala turbo en el vehículo",
 	},
 
 	["handcuffs"] = {
-		label = "Handcuffs",
+		label = "Esposas",
 		weight = 100,
 		stack = true,
 		close = true,
-		description = "Comes in handy when people misbehave. Maybe it can be used for something else?",
+		description = "Útiles cuando la gente se porta mal",
 	},
 
 	["iron"] = {
-		label = "Iron",
+		label = "Hierro",
 		weight = 100,
 		stack = true,
 		close = false,
-		description = "Handy piece of metal that you can probably use for something",
+		description = "Pieza de metal útil para fabricar",
 		client = {
 			image = 'ironore.png'
 		},
 	},
 
 	["cleaningkit"] = {
-		label = "Cleaning Kit",
+		label = "Kit de Limpieza",
 		weight = 250,
 		stack = true,
 		close = true,
-		description = "A microfiber cloth with some soap will let your car sparkle again!",
+		description = "Paño y jabón para dejar el coche reluciente",
 	},
 
 	["id_card"] = {
-		label = "ID Card",
+		label = "DNI / Identificación",
 		weight = 0,
 		stack = false,
 		close = false,
-		description = "A card containing all your information to identify yourself",
+		description = "Tarjeta con tu información personal",
 		client = {
 			image = 'id_card.png'
 		}
 	},
 
 	["veh_brakes"] = {
-		label = "Brakes",
+		label = "Frenos",
 		weight = 1000,
 		stack = true,
 		close = true,
-		description = "Upgrade vehicle brakes",
+		description = "Mejora los frenos del vehículo",
 	},
 
 	["weed_ogkush_seed"] = {
-		label = "OGKush Seed",
+		label = "Semilla de OG Kush",
 		weight = 0,
 		stack = true,
 		close = true,
-		description = "A weed seed of OG Kush",
+		description = "Semilla de Marihuana OG Kush",
 		client = {
 			image = "weed_seed.png",
 		}
 	},
 
 	["advscope_attachment"] = {
-		label = "Advanced Scope",
+		label = "Mira Avanzada",
 		weight = 1000,
 		stack = true,
 		close = true,
-		description = "An advanced scope for a weapon",
+		description = "Mira avanzada para arma",
 	},
 
 	["plastic"] = {
-		label = "Plastic",
+		label = "Plástico",
 		weight = 100,
 		stack = true,
 		close = false,
-		description = "The power is yours!",
+		description = "¡El poder es tuyo!",
 	},
 
 	["stickynote"] = {
-		label = "Sticky note",
+		label = "Nota Adhesiva",
 		weight = 0,
 		stack = false,
 		close = false,
-		description = "Sometimes handy to remember something :)",
+		description = "A veces es útil recordar algo :)",
 	},
 
 	["bellend_muzzle_brake"] = {
-		label = "Bellend Muzzle Brake",
+		label = "Freno de Boca Bellend",
 		weight = 1000,
 		stack = true,
 		close = true,
-		description = "A muzzle brake for a weapon",
+		description = "Accesorio para arma",
 	},
 
 	["certificate"] = {
-		label = "Certificate",
+		label = "Certificado",
 		weight = 0,
 		stack = true,
 		close = true,
-		description = "Certificate that proves you own certain stuff",
+		description = "Documento que prueba la propiedad de algo",
 	},
 
 	["firstaid"] = {
-		label = "First Aid",
+		label = "Botiquín",
 		weight = 2500,
 		stack = true,
 		close = true,
-		description = "You can use this First Aid kit to get people back on their feet",
+		description = "Kit para poner a la gente de nuevo en pie",
 	},
 
 	["cryptostick"] = {
-		label = "Crypto Stick",
+		label = "USB Cripto",
 		weight = 200,
 		stack = false,
 		close = true,
-		description = "Why would someone ever buy money that doesn't exist.. How many would it contain..?",
+		description = "¿Quién compraría dinero que no existe? ¿Cuánto tendrá?",
 	},
 
 	["weed_ogkush"] = {
-		label = "OGKush 2g",
+		label = "OG Kush 2g",
 		weight = 200,
 		stack = true,
 		close = false,
-		description = "A weed bag with 2g OG Kush",
+		description = "Bolsa con 2g de OG Kush",
 		client = {
 			image = "weed_baggy.png",
 		}
 	},
 
 	["advancedrepairkit"] = {
-		label = "Advanced Repairkit",
+		label = "Kit de Reparación Avanzado",
 		weight = 4000,
 		stack = true,
 		close = true,
-		description = "A nice toolbox with stuff to repair your vehicle",
+		description = "Caja de herramientas completa para reparar vehículos",
 		client = {
 			image = "advancedkit.png",
 		}
 	},
 
 	["ifaks"] = {
-		label = "ifaks",
+		label = "IFAK",
 		weight = 200,
 		stack = true,
 		close = true,
-		description = "ifaks for healing and a complete stress remover.",
+		description = "Kit médico personal, cura y quita el estrés.",
 	},
 
 	["veh_interior"] = {
@@ -637,112 +637,112 @@ return {
 		weight = 1000,
 		stack = true,
 		close = true,
-		description = "Upgrade vehicle interior",
+		description = "Mejora el interior del vehículo",
 	},
 
 	["tenkgoldchain"] = {
-		label = "10k Gold Chain",
+		label = "Cadena de Oro 10k",
 		weight = 2000,
 		stack = true,
 		close = true,
-		description = "10 carat golden chain",
+		description = "Cadena de oro de 10 quilates",
 		client = {
 			image = "10kgoldchain.png",
 		}
 	},
 
 	["xtcbaggy"] = {
-		label = "Bag of XTC",
+		label = "Bolsa de Éxtasis",
 		weight = 0,
 		stack = true,
 		close = true,
-		description = "Pop those pills baby",
+		description = "Pastillas para la fiesta",
 		client = {
 			image = "xtc_baggy.png",
 		}
 	},
 
 	["trojan_usb"] = {
-		label = "Trojan USB",
+		label = "USB Troyano",
 		weight = 0,
 		stack = true,
 		close = true,
-		description = "Handy software to shut down some systems",
+		description = "Software para piratear sistemas",
 		client = {
 			image = "usb_device.png",
 		}
 	},
 
 	["diamond_ring"] = {
-		label = "Diamond Ring",
+		label = "Anillo de Diamante",
 		weight = 1500,
 		stack = true,
 		close = true,
-		description = "A diamond ring seems like the jackpot to me!",
+		description = "¡Un anillo de diamante, qué suerte!",
 	},
 
 	["ironoxide"] = {
-		label = "Iron Powder",
+		label = "Óxido de Hierro",
 		weight = 100,
 		stack = true,
 		close = false,
-		description = "Some powder to mix with.",
+		description = "Polvo para mezclar.",
 	},
 
 	["veh_suspension"] = {
-		label = "Suspension",
+		label = "Suspensión",
 		weight = 1000,
 		stack = true,
 		close = true,
-		description = "Upgrade vehicle suspension",
+		description = "Mejora la suspensión del vehículo",
 	},
 
 	["laptop"] = {
-		label = "Laptop",
+		label = "Ordenador Portátil",
 		weight = 4000,
 		stack = true,
 		close = true,
-		description = "Expensive laptop",
+		description = "Portátil caro",
 	},
 
 	["electronickit"] = {
-		label = "Electronic Kit",
+		label = "Kit Electrónico",
 		weight = 100,
 		stack = true,
 		close = true,
-		description = "If you've always wanted to build a robot you can maybe start here. Maybe you'll be the new Elon Musk?",
+		description = "Si quieres construir un robot, empieza aquí. ¿Serás el próximo Elon Musk?",
 	},
 
 	["clip_attachment"] = {
-		label = "Clip",
+		label = "Cargador",
 		weight = 1000,
 		stack = true,
 		close = true,
-		description = "A clip for a weapon",
+		description = "Cargador para arma",
 	},
 
 	["coffee"] = {
-		label = "Coffee",
+		label = "Café",
 		weight = 200,
 		stack = true,
 		close = true,
-		description = "Pump 4 Caffeine",
+		description = "Dosis de cafeína",
 	},
 
 	["firework1"] = {
-		label = "2Brothers",
+		label = "Fuego Artificial 2Brothers",
 		weight = 1000,
 		stack = true,
 		close = true,
-		description = "Fireworks",
+		description = "Fuegos artificiales",
 	},
 
 	["weed_nutrition"] = {
-		label = "Plant Fertilizer",
+		label = "Fertilizante",
 		weight = 2000,
 		stack = true,
 		close = true,
-		description = "Plant nutrition",
+		description = "Nutrición para plantas",
 	},
 
 	["weed_whitewidow"] = {
@@ -750,26 +750,26 @@ return {
 		weight = 200,
 		stack = true,
 		close = false,
-		description = "A weed bag with 2g White Widow",
+		description = "Bolsa con 2g de White Widow",
 		client = {
 			image = "weed_baggy.png",
 		}
 	},
 
 	["veh_wheels"] = {
-		label = "Wheels",
+		label = "Ruedas",
 		weight = 1000,
 		stack = true,
 		close = true,
-		description = "Upgrade vehicle wheels",
+		description = "Cambia las ruedas del vehículo",
 	},
 
 	["weed_brick"] = {
-		label = "Weed Brick",
+		label = "Ladrillo de Marihuana",
 		weight = 1000,
 		stack = true,
 		close = true,
-		description = "1KG Weed Brick to sell to large customers.",
+		description = "1KG de marihuana para grandes clientes.",
 	},
 
 	["weed_ak47"] = {
@@ -777,26 +777,26 @@ return {
 		weight = 200,
 		stack = true,
 		close = false,
-		description = "A weed bag with 2g AK47",
+		description = "Bolsa con 2g de AK47",
 		client = {
 			image = "weed_baggy.png",
 		}
 	},
 
 	["newscam"] = {
-		label = "News Camera",
+		label = "Cámara de Noticias",
 		weight = 100,
 		stack = false,
 		close = true,
-		description = "A camera for the news",
+		description = "Cámara profesional para informativos",
 	},
 
 	["moneybag"] = {
-		label = "Money Bag",
+		label = "Bolsa de Dinero",
 		weight = 0,
 		stack = false,
 		close = true,
-		description = "A bag with cash",
+		description = "Bolsa llena de efectivo",
 	},
 
 	["samsungphone"] = {
@@ -804,47 +804,47 @@ return {
 		weight = 1000,
 		stack = true,
 		close = true,
-		description = "Very expensive phone",
+		description = "Teléfono de alta gama",
 	},
 
 	["grape"] = {
-		label = "Grape",
+		label = "Uva",
 		weight = 100,
 		stack = true,
 		close = false,
-		description = "Mmmmh yummie, grapes",
+		description = "Ricas uvas",
 	},
 
 	["medscope_attachment"] = {
-		label = "Medium Scope",
+		label = "Mira Media",
 		weight = 1000,
 		stack = true,
 		close = true,
-		description = "A medium scope for a weapon",
+		description = "Mira de aumento medio",
 	},
 
 	["tactical_muzzle_brake"] = {
-		label = "Tactical Muzzle Brake",
+		label = "Freno de Boca Táctico",
 		weight = 1000,
 		stack = true,
 		close = true,
-		description = "A muzzle brakee for a weapon",
+		description = "Accesorio para arma",
 	},
 
 	["digicamo_attachment"] = {
-		label = "Digital Camo",
+		label = "Camuflaje Digital",
 		weight = 1000,
 		stack = true,
 		close = true,
-		description = "A digital camo for a weapon",
+		description = "Camuflaje para arma",
 	},
 
 	["thermite"] = {
-		label = "Thermite",
+		label = "Termita",
 		weight = 1000,
 		stack = true,
 		close = true,
-		description = "Sometimes you'd wish for everything to burn",
+		description = "A veces solo quieres ver el mundo arder",
 	},
 
 	["antipatharia_coral"] = {
@@ -852,23 +852,23 @@ return {
 		weight = 1000,
 		stack = true,
 		close = true,
-		description = "Its also known as black corals or thorn corals",
+		description = "También conocido como coral negro",
 	},
 
 	["printerdocument"] = {
-		label = "Document",
+		label = "Documento",
 		weight = 500,
 		stack = false,
 		close = true,
-		description = "A nice document",
+		description = "Un documento oficial",
 	},
 
 	["luxuryfinish_attachment"] = {
-		label = "Luxury Finish",
+		label = "Acabado de Lujo",
 		weight = 1000,
 		stack = true,
 		close = true,
-		description = "A luxury finish for a weapon",
+		description = "Acabado de lujo para arma",
 	},
 
 	["vodka"] = {
@@ -876,31 +876,31 @@ return {
 		weight = 500,
 		stack = true,
 		close = true,
-		description = "For all the thirsty out there",
+		description = "Bebida fuerte",
 	},
 
 	["nvscope_attachment"] = {
-		label = "Night Vision Scope",
+		label = "Mira de Visión Nocturna",
 		weight = 1000,
 		stack = true,
 		close = true,
-		description = "A night vision scope for a weapon",
+		description = "Mira nocturna para arma",
 	},
 
 	["skullcamo_attachment"] = {
-		label = "Skull Camo",
+		label = "Camuflaje de Calaveras",
 		weight = 1000,
 		stack = true,
 		close = true,
-		description = "A skull camo for a weapon",
+		description = "Camuflaje para arma",
 	},
 
 	["leopardcamo_attachment"] = {
-		label = "Leopard Camo",
+		label = "Camuflaje de Leopardo",
 		weight = 1000,
 		stack = true,
 		close = true,
-		description = "A leopard camo for a weapon",
+		description = "Camuflaje para arma",
 	},
 
 	["iphone"] = {
@@ -908,183 +908,183 @@ return {
 		weight = 1000,
 		stack = true,
 		close = true,
-		description = "Very expensive phone",
+		description = "Un iPhone muy caro",
 	},
 
 	["coke_brick"] = {
-		label = "Coke Brick",
+		label = "Ladrillo de Coca",
 		weight = 1000,
 		stack = false,
 		close = true,
-		description = "Heavy package of cocaine, mostly used for deals and takes a lot of space",
+		description = "Paquete pesado de cocaína, para grandes tratos",
 	},
 
 	["armor"] = {
-		label = "Armor",
+		label = "Armadura",
 		weight = 5000,
 		stack = true,
 		close = true,
-		description = "Some protection won't hurt... right?",
+		description = "Un poco de protección no viene mal",
 	},
 
 	["goldchain"] = {
-		label = "Golden Chain",
+		label = "Cadena de Oro",
 		weight = 1500,
 		stack = true,
 		close = true,
-		description = "A golden chain seems like the jackpot to me!",
+		description = "Joyas valiosas",
 	},
 
 	["fat_end_muzzle_brake"] = {
-		label = "Fat End Muzzle Brake",
+		label = "Freno de Boca Fat End",
 		weight = 1000,
 		stack = true,
 		close = true,
-		description = "A muzzle brake for a weapon",
+		description = "Accesorio para arma",
 	},
 
 	["split_end_muzzle_brake"] = {
-		label = "Split End Muzzle Brake",
+		label = "Freno de Boca Split End",
 		weight = 1000,
 		stack = true,
 		close = true,
-		description = "A muzzle brake for a weapon",
+		description = "Accesorio para arma",
 	},
 
 	["veh_transmission"] = {
-		label = "Transmission",
+		label = "Transmisión",
 		weight = 1000,
 		stack = true,
 		close = true,
-		description = "Upgrade vehicle transmission",
+		description = "Mejora la transmisión del vehículo",
 	},
 
 	["painkillers"] = {
-		label = "Painkillers",
+		label = "Analgésicos",
 		weight = 0,
 		stack = true,
 		close = true,
-		description = "For pain you can't stand anymore, take this pill that'd make you feel great again",
+		description = "Para cuando el dolor es insoportable",
 	},
 
 	["grapejuice"] = {
-		label = "Grape Juice",
+		label = "Zumo de Uva",
 		weight = 200,
 		stack = true,
 		close = false,
-		description = "Grape juice is said to be healthy",
+		description = "Dicen que es muy sano",
 	},
 
 	["crack_baggy"] = {
-		label = "Bag of Crack",
+		label = "Bolsa de Crack",
 		weight = 0,
 		stack = true,
 		close = true,
-		description = "To get happy faster",
+		description = "Para ser feliz rápido",
 	},
 
 	["tosti"] = {
-		label = "Grilled Cheese Sandwich",
+		label = "Sándwich Mixto",
 		weight = 200,
 		stack = true,
 		close = true,
-		description = "Nice to eat",
+		description = "Rico tentempié",
 	},
 
 	["flashlight_attachment"] = {
-		label = "Flashlight",
+		label = "Linterna",
 		weight = 1000,
 		stack = true,
 		close = true,
-		description = "A flashlight for a weapon",
+		description = "Linterna para arma",
 	},
 
 	["flat_muzzle_brake"] = {
-		label = "Flat Muzzle Brake",
+		label = "Freno de Boca Plano",
 		weight = 1000,
 		stack = true,
 		close = true,
-		description = "A muzzle brake for a weapon",
+		description = "Accesorio para arma",
 	},
 
 	["screwdriverset"] = {
-		label = "Toolkit",
+		label = "Juego de Destornilladores",
 		weight = 1000,
 		stack = true,
 		close = false,
-		description = "Very useful to screw... screws...",
+		description = "Muy útiles para atornillar... cosas",
 	},
 
 	["veh_xenons"] = {
-		label = "Xenons",
+		label = "Luces de Xenón",
 		weight = 1000,
 		stack = true,
 		close = true,
-		description = "Upgrade vehicle xenons",
+		description = "Mejora las luces del vehículo",
 	},
 
 	["walkstick"] = {
-		label = "Walking Stick",
+		label = "Bastón",
 		weight = 1000,
 		stack = true,
 		close = true,
-		description = "Walking stick for ya'll grannies out there.. HAHA",
+		description = "Bastón para los abuelitos del lugar.. JEJE",
 	},
 
 	["police_stormram"] = {
-		label = "Stormram",
+		label = "Ariete Policial",
 		weight = 18000,
 		stack = true,
 		close = true,
-		description = "A nice tool to break into doors",
+		description = "Herramienta para tirar puertas",
 	},
 
 	["firework3"] = {
-		label = "WipeOut",
+		label = "Fuego Artificial WipeOut",
 		weight = 1000,
 		stack = true,
 		close = true,
-		description = "Fireworks",
+		description = "Fuegos artificiales",
 	},
 
 	["copper"] = {
-		label = "Copper",
+		label = "Cobre",
 		weight = 100,
 		stack = true,
 		close = false,
-		description = "Nice piece of metal that you can probably use for something",
+		description = "Pieza de metal útil",
 	},
 
 	["veh_toolbox"] = {
-		label = "Toolbox",
+		label = "Caja de Herramientas",
 		weight = 1000,
 		stack = true,
 		close = true,
-		description = "Check vehicle status",
+		description = "Revisa el estado del vehículo",
 	},
 
 	["patriotcamo_attachment"] = {
-		label = "Patriot Camo",
+		label = "Camuflaje Patriota",
 		weight = 1000,
 		stack = true,
 		close = true,
-		description = "A patriot camo for a weapon",
+		description = "Camuflaje para arma",
 	},
 
 	["metalscrap"] = {
-		label = "Metal Scrap",
+		label = "Chatarra",
 		weight = 100,
 		stack = true,
 		close = false,
-		description = "You can probably make something nice out of this",
+		description = "Seguro que puedes fabricar algo con esto",
 	},
 
 	["diamond"] = {
-		label = "Diamond",
+		label = "Diamante",
 		weight = 1000,
 		stack = true,
 		close = true,
-		description = "A diamond seems like the jackpot to me!",
+		description = "Diamante valioso",
 	},
 
 	["tablet"] = {
@@ -1092,109 +1092,109 @@ return {
 		weight = 2000,
 		stack = true,
 		close = true,
-		description = "Expensive tablet",
+		description = "Tablet de alta gama",
 	},
 
 	["weed_purplehaze_seed"] = {
-		label = "Purple Haze Seed",
+		label = "Semilla de Purple Haze",
 		weight = 0,
 		stack = true,
 		close = true,
-		description = "A weed seed of Purple Haze",
+		description = "Semilla de Marihuana Purple Haze",
 		client = {
 			image = "weed_seed.png",
 		}
 	},
 
 	["weed_skunk_seed"] = {
-		label = "Skunk Seed",
+		label = "Semilla de Skunk",
 		weight = 0,
 		stack = true,
 		close = true,
-		description = "A weed seed of Skunk",
+		description = "Semilla de Marihuana Skunk",
 		client = {
 			image = "weed_seed.png",
 		}
 	},
 
 	["rolling_paper"] = {
-		label = "Rolling Paper",
+		label = "Papel de Liar",
 		weight = 0,
 		stack = true,
 		close = true,
-		description = "Paper made specifically for encasing and smoking tobacco or cannabis.",
+		description = "Papel específico para liar tabaco o cannabis.",
 	},
 
 	["lighter"] = {
-		label = "Lighter",
+		label = "Mechero",
 		weight = 0,
 		stack = true,
 		close = true,
-		description = "On new years eve a nice fire to stand next to",
+		description = "Para encender lumbre",
 	},
 
 	["zebracamo_attachment"] = {
-		label = "Zebra Camo",
+		label = "Camuflaje de Cebra",
 		weight = 1000,
 		stack = true,
 		close = true,
-		description = "A zebra camo for a weapon",
+		description = "Camuflaje para arma",
 	},
 
 	["rubber"] = {
-		label = "Rubber",
+		label = "Goma/Caucho",
 		weight = 100,
 		stack = true,
 		close = false,
-		description = "Rubber, I believe you can make your own rubber ducky with it :D",
+		description = "Seguro que puedes hacer un patito de goma :D",
 	},
 
 	["drill"] = {
-		label = "Drill",
+		label = "Taladro",
 		weight = 20000,
 		stack = true,
 		close = false,
-		description = "The real deal...",
+		description = "El de verdad...",
 	},
 
 	["grip_attachment"] = {
-		label = "Grip",
+		label = "Empuñadura",
 		weight = 1000,
 		stack = true,
 		close = true,
-		description = "A grip for a weapon",
+		description = "Empuñadura para arma",
 	},
 
 	["firework2"] = {
-		label = "Poppelers",
+		label = "Fuego Artificial Poppelers",
 		weight = 1000,
 		stack = true,
 		close = true,
-		description = "Fireworks",
+		description = "Fuegos artificiales",
 	},
 
 	["veh_tint"] = {
-		label = "Tints",
+		label = "Tintes de Cristal",
 		weight = 1000,
 		stack = true,
 		close = true,
-		description = "Install vehicle tint",
+		description = "Instala cristales tintados",
 	},
 
 	["brushcamo_attachment"] = {
-		label = "Brushstroke Camo",
+		label = "Camuflaje de Pincel",
 		weight = 1000,
 		stack = true,
 		close = true,
-		description = "A brushstroke camo for a weapon",
+		description = "Camuflaje para arma",
 	},
 
 	["slanted_muzzle_brake"] = {
-		label = "Slanted Muzzle Brake",
+		label = "Freno de Boca Inclinado",
 		weight = 1000,
 		stack = true,
 		close = true,
-		description = "A muzzle brake for a weapon",
+		description = "Accesorio para arma",
 	},
 
 	["weed_skunk"] = {
@@ -1202,142 +1202,142 @@ return {
 		weight = 200,
 		stack = true,
 		close = false,
-		description = "A weed bag with 2g Skunk",
+		description = "Bolsa con 2g de Skunk",
 		client = {
 			image = "weed_baggy.png",
 		}
 	},
 
 	["twerks_candy"] = {
-		label = "Twerks",
+		label = "Caramelo Twerks",
 		weight = 100,
 		stack = true,
 		close = true,
-		description = "Some delicious candy :O",
+		description = "Un dulce delicioso :O",
 	},
 
 	["veh_neons"] = {
-		label = "Neons",
+		label = "Neones",
 		weight = 1000,
 		stack = true,
 		close = true,
-		description = "Upgrade vehicle neons",
+		description = "Mejora los neones del vehículo",
 	},
 
 	["joint"] = {
-		label = "Joint",
+		label = "Porro",
 		weight = 0,
 		stack = true,
 		close = true,
-		description = "Sidney would be very proud at you",
+		description = "Un cigarrillo muy alegre",
 	},
 
 	["weed_whitewidow_seed"] = {
-		label = "White Widow Seed",
+		label = "Semilla de White Widow",
 		weight = 0,
 		stack = true,
 		close = false,
-		description = "A weed seed of White Widow",
+		description = "Semilla de Marihuana White Widow",
 		client = {
 			image = "weed_seed.png",
 		}
 	},
 
 	["security_card_01"] = {
-		label = "Security Card A",
+		label = "Tarjeta de Seguridad A",
 		weight = 0,
 		stack = true,
 		close = true,
-		description = "A security card... I wonder what it goes to",
+		description = "Una tarjeta de seguridad... ¿Qué abrirá?",
 	},
 
 	["sessantacamo_attachment"] = {
-		label = "Sessanta Nove Camo",
+		label = "Camuflaje Sessanta Nove",
 		weight = 1000,
 		stack = true,
 		close = true,
-		description = "A sessanta nove camo for a weapon",
+		description = "Camuflaje para arma",
 	},
 
 	["whiskey"] = {
-		label = "Whiskey",
+		label = "Whisky",
 		weight = 500,
 		stack = true,
 		close = true,
-		description = "For all the thirsty out there",
+		description = "Bebida fuerte",
 	},
 
 	["tirerepairkit"] = {
-		label = "Tire Repair Kit",
+		label = "Kit de Reparación de Neumáticos",
 		weight = 1000,
 		stack = true,
 		close = true,
-		description = "A kit to repair your tires",
+		description = "Kit para arreglar pinchazos",
 	},
 
 	["thermalscope_attachment"] = {
-		label = "Thermal Scope",
+		label = "Mira Térmica",
 		weight = 1000,
 		stack = true,
 		close = true,
-		description = "A thermal scope for a weapon",
+		description = "Mira térmica para arma",
 	},
 
 	["coke_small_brick"] = {
-		label = "Coke Package",
+		label = "Paquete de Coca",
 		weight = 350,
 		stack = false,
 		close = true,
-		description = "Small package of cocaine, mostly used for deals and takes a lot of space",
+		description = "Paquete pequeño de cocaína para tratos",
 		client = {
 			image = "coke_small_brick.png",
 		}
 	},
 
 	["cokebaggy"] = {
-		label = "Bag of Coke",
+		label = "Bolsa de Coca",
 		weight = 0,
 		stack = true,
 		close = true,
-		description = "To get happy real quick",
+		description = "Un poco de polvo blanco",
 		client = {
 			image = "cocaine_baggy.png",
 		}
 	},
 
 	["repairkit"] = {
-		label = "Repairkit",
+		label = "Kit de Reparación",
 		weight = 2500,
 		stack = true,
 		close = true,
-		description = "A nice toolbox with stuff to repair your vehicle",
+		description = "Caja de herramientas para reparar el coche",
 	},
 
 	["newsbmic"] = {
-		label = "Boom Microphone",
+		label = "Micrófono de Jirafa",
 		weight = 100,
 		stack = false,
 		close = true,
-		description = "A Useable BoomMic",
+		description = "Micrófono para informativos",
 	},
 
 	["filled_evidence_bag"] = {
-		label = "Evidence Bag",
+		label = "Bolsa de Evidencia Llena",
 		weight = 200,
 		stack = false,
 		close = false,
-		description = "A filled evidence bag to see who committed the crime >:(",
+		description = "Contiene pruebas de un crimen >:(",
 		client = {
 			image = "evidence.png",
 		}
 	},
 
 	["diving_fill"] = {
-		label = "Diving Tube",
+		label = "Botella de Buceo",
 		weight = 3000,
 		stack = false,
 		close = true,
-		description = "An oxygen tube and a rebreather",
+		description = "Tanque de aire para bucear",
 		client = {
 			image = "diving_tube.png",
 		}
@@ -1348,18 +1348,18 @@ return {
 		weight = 0,
 		stack = true,
 		close = true,
-		description = "Handy software to tear down some fences",
+		description = "Software útil para abrir verjas",
 		client = {
 			image = "usb_device.png",
 		}
 	},
 
 	["wine"] = {
-		label = "Wine",
+		label = "Vino",
 		weight = 300,
 		stack = true,
 		close = false,
-		description = "Some good wine to drink on a fine evening",
+		description = "Buen vino para una velada",
 	},
 
 	["weed_purplehaze"] = {
@@ -1367,110 +1367,110 @@ return {
 		weight = 200,
 		stack = true,
 		close = false,
-		description = "A weed bag with 2g Purple Haze",
+		description = "Bolsa con 2g de Purple Haze",
 		client = {
 			image = "weed_baggy.png",
 		}
 	},
 
 	["driver_license"] = {
-		label = "Drivers License",
+		label = "Carnet de Conducir",
 		weight = 0,
 		stack = false,
 		close = false,
-		description = "Permit to show you can drive a vehicle",
+		description = "Permiso que acredita que puedes conducir",
 		client = {
 			image = 'license_driver.png'
 		}
 	},
 
 	["water_bottle"] = {
-		label = "Bottle of Water",
+		label = "Botella de Agua",
 		weight = 500,
 		stack = true,
 		close = true,
-		description = "For all the thirsty out there",
+		description = "Para saciar la sed",
 	},
 
 	["security_card_02"] = {
-		label = "Security Card B",
+		label = "Tarjeta de Seguridad B",
 		weight = 0,
 		stack = true,
 		close = true,
-		description = "A security card... I wonder what it goes to",
+		description = "Una tarjeta de seguridad... ¿Qué abrirá?",
 	},
 
 	["lawyerpass"] = {
-		label = "Lawyer Pass",
+		label = "Pase de Abogado",
 		weight = 0,
 		stack = false,
 		close = false,
-		description = "Pass exclusive to lawyers to show they can represent a suspect",
+		description = "Pase exclusivo para abogados",
 	},
 
 	["casinochips"] = {
-		label = "Casino Chips",
+		label = "Fichas de Casino",
 		weight = 0,
 		stack = true,
 		close = false,
-		description = "Chips For Casino Gambling",
+		description = "Fichas para apostar en el casino",
 	},
 
 	["weaponlicense"] = {
-		label = "Weapon License",
+		label = "Licencia de Armas",
 		weight = 0,
 		stack = false,
 		close = true,
-		description = "Weapon License",
+		description = "Permiso oficial para portar armas",
 		client = {
 			image = "weapon_license.png",
 		}
 	},
 
 	["woodcamo_attachment"] = {
-		label = "Woodland Camo",
+		label = "Camuflaje de Bosque",
 		weight = 1000,
 		stack = true,
 		close = true,
-		description = "A woodland camo for a weapon",
+		description = "Camuflaje para arma",
 	},
 
 	["bank_card"] = {
-		label = "Bank Card",
+		label = "Tarjeta Bancaria",
 		weight = 0,
 		stack = false,
 		close = true,
-		description = "Used to access ATM",
+		description = "Se usa para acceder al cajero",
 	},
 
 	["attachment_bench"] = {
-		label = "Attachment Workbench",
+		label = "Mesa de Accesorios",
 		weight = 15000,
 		stack = false,
 		close = false,
-		description = "A workbench for crafting attachments.",
+		description = "Mesa para fabricar accesorios de armas.",
 		client = {
 			image = "attworkbench.png",
 		}
 	},
 
 	["heavyarmor"] = {
-		label = "Heavy Armor",
+		label = "Chaleco Pesado",
 		weight = 5000,
 		stack = true,
 		close = true,
-		description = "Some protection won't hurt... right?",
+		description = "Gran protección antibalas",
 		client = {
 			image = "armor.png",
 		}
 	},
 
 	["tunerlaptop"] = {
-		label = "Tunerchip",
+		label = "Portátil de Tuneo",
 		weight = 2000,
 		stack = false,
 		close = true,
-		description = "With this tunerchip you can get your car on steroids... If you know what you're doing",
+		description = "Con este chip puedes poner el coche a tope... Si sabes lo que haces",
 		client = {
 			image = "tunerchip.png",
 		}
