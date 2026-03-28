@@ -1,9 +1,9 @@
 $engine: 3
 $onesync: on
-name: Custom QBCore + Ox Ecosystem
-version: 1.0.0
-author: Antigravity (Assistant)
-description: QBCore Framework with Ox Inventory, Target, Doorlock, and Lib. Includes Police, Ambulance, and Banking by default.
+name: QBCore + Ox Ecosystem
+version: 1.0.1
+author: EricD-UltimoRefugio
+description: QBCore Framework con Ox Inventory, Target, Doorlock y Lib. Incluye de serie los módulos de policía, ambulancia y banca.
 
 tasks:
   #  Download Base Files (Configs & SQL)
