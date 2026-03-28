@@ -10,10 +10,10 @@ tasks:
   - action: download_github
     src: https://github.com/ultimorefugio80-code/Receta-Qb-Ox
     ref: main
-    dest: ./tmp/theorder
+    dest: ./tmp/ultimorefugio
 
   - action: move_path
-    src: ./tmp/theorder/server.cfg
+    src: ./tmp/ultimorefugio/server.cfg
     dest: ./server.cfg
 
   - action: set_convar
@@ -35,7 +35,10 @@ tasks:
   # Prepare Database
   - action: connect_database
   - action: query_database
-    file: ./tmp/theorder/sqlfiles/qbcore.sql
+    file: ./tmp/ultimorefugio/sqlfiles/qbcore.sql
+
+  - action: query_database
+    file: ./tmp/ultimorefugio/sqlfiles/illenium.sql
 
   # Libs
   - action: download_github
@@ -44,34 +47,34 @@ tasks:
     src: https://github.com/TheOrderFivem/community_bridge/
 
   - action: move_path
-    src: ./tmp/theorder/edits/community_bridge/settings/clientConfig.lua
+    src: ./tmp/ultimorefugio/edits/community_bridge/settings/clientConfig.lua
     dest: ./resources/[libs]/community_bridge/settings/clientConfig.lua
     overwrite: true
 
   - action: move_path
-    src: ./tmp/theorder/edits/community_bridge/settings/serverConfig.lua
+    src: ./tmp/ultimorefugio/edits/community_bridge/settings/serverConfig.lua
     dest: ./resources/[libs]/community_bridge/settings/serverConfig.lua
     overwrite: true
 
   - action: move_path
-    src: ./tmp/theorder/edits/community_bridge/settings/sharedConfig.lua
+    src: ./tmp/ultimorefugio/edits/community_bridge/settings/sharedConfig.lua
     dest: ./resources/[libs]/community_bridge/settings/sharedConfig.lua
     overwrite: true
 
   # QB-CORE EDITS
   - action: move_path
-    src: ./tmp/theorder/edits/qb-core/shared/jobs.lua
+    src: ./tmp/ultimorefugio/edits/qb-core/shared/jobs.lua
     dest: ./resources/[qb]/qb-core/shared/jobs.lua
     overwrite: true
 
   - action: move_path
-    src: ./tmp/theorder/edits/qb-core/shared/config.lua
+    src: ./tmp/ultimorefugio/edits/qb-core/shared/config.lua
     dest: ./resources/[qb]/qb-core/shared/config.lua
     overwrite: true
 
   # QB-SMALLRESOURCES EDITS
   - action: move_path
-    src: ./tmp/theorder/edits/qb-smallresources/config.lua
+    src: ./tmp/ultimorefugio/edits/qb-smallresources/config.lua
     dest: ./resources/[qb]/qb-smallresources/config.lua
     overwrite: true
 
