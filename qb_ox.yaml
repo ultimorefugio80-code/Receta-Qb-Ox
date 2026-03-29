@@ -28,8 +28,12 @@ tasks:
 
   # Prepare Database
   - action: connect_database
+  - action: download_file
+    url: https://raw.githubusercontent.com/qbcore-framework/qb-core/main/qbcore.sql
+    path: ./tmp/qbcore.sql
+
   - action: query_database
-    file: ./tmp/ultimorefugio/sqlfiles/qbcore.sql
+    file: ./tmp/qbcore.sql
 
   - action: query_database
     file: ./tmp/ultimorefugio/sqlfiles/illenium.sql
