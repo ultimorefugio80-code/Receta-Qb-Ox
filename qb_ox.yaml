@@ -16,21 +16,15 @@ tasks:
     src: ./tmp/ultimorefugio/server.cfg
     dest: ./server.cfg
 
-  - action: set_convar
-    name: "sv_enforceGameBuild"
-    value: "3570"
+  - action: replace_string
+    file: ./server.cfg
+    search: "# sets 🎭Rol \"🧬Supervivencia\""
+    replace: "sets 🎭Rol \"🧬Supervivencia\""
 
-  - action: set_convar
-    name: "sets locale"
-    value: "es-ES"
-
-  - action: set_convar
-    name: "sets 🎭Rol"
-    value: "🧬Supervivencia"
-
-  - action: set_convar
-    name: "sets 🌆Framework"
-    value: "QB-Core + Ox"
+  - action: replace_string
+    file: ./server.cfg
+    search: "# sets 🌆Framework \"QB-Core + Ox\""
+    replace: "sets 🌆Framework \"QB-Core + Ox\""
 
   # Prepare Database
   - action: connect_database
